@@ -2,7 +2,7 @@
 // Database configuration
 class Database {
     private $host = 'localhost';
-    private $db_name = 'pt_saranasentra_db';
+    private $db_name = 'db_name';
     private $username = 'root';
     private $password = '';
     private $conn = null;
@@ -78,4 +78,5 @@ function truncateText($text, $limit = 150) {
     }
     return $text;
 }
+
 ?>
