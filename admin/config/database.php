@@ -15,7 +15,7 @@ class Database
     private static ?Database $instance = null;
     private PDO $pdo;
     private string $host = 'localhost';
-    private string $dbname = 'pt_saranasentra_db';
+    private string $dbname = 'db_name';
     private string $username = 'root'; 
     private string $password = '';     
     private string $charset = 'utf8mb4';
