@@ -1,0 +1,67 @@
+# Database Configuration Files
+# Ignore file konfigurasi database untuk keamanan
+config/db.php
+admin/config/database.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Upload folders (opsional - uncomment jika tidak ingin upload gambar masuk git)
+# uploads/*
+# !uploads/.gitkeep
+
+# Log files
+*.log
+error_log
+debug.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.old
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Node modules (jika menggunakan npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Session files
+sessions/
+tmp/
+
+# Backup files
+*.sql
+*.sql.gz
+*.zip
+backup/
